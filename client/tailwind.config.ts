@@ -8,6 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors:{
+        'eggshell':"#EAE7DC",
+        'jellybean':"#E85A4F",
+        'dark':"#8E8D8A"
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
